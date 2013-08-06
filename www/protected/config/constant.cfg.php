@@ -1,0 +1,7 @@
+<?php
+/**
+ * FINAL
+ */
+class A {
+	
+}
