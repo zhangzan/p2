@@ -52,7 +52,7 @@ select{ width:90px; text-indent:10px; } .pr{ position:relative; } .vh{ visibilit
 .pro li{ width:160px; float:left; margin-left:15px; }
 .pro li p{ background:url(../images/m-tit.png); height:20px; line-height:20px; text-align:center; }
 .arrl,.arrr{ background:url(../images/arr.png) no-repeat; width:23px; height:33px; position:absolute; top:62px; display:block; cursor: pointer;}
-.arrl{ left:20px; }
+.arrl{ left:20px;}
 .arrr{ background-position:-24px 0; right:20px; }
 .note{ background:url(../images/m-bg2.jpg); height:35px; line-height:40px; overflow:hidden; padding-left:80px; }
 .note a{ display:block; }
