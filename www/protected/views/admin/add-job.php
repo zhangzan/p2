@@ -1,42 +1,3 @@
-<script type="text/javascript" language="javascript">
-$(document).ready(function(){
-	$("#btn_add").click(function(){
-		var title = $.trim($("#title").val());
-		var count = $.trim($("#count").val());
-		var expire_time = $.trim($("#expire_time").val());
-		var location = $.trim($("#location").val());
-		var experience = $.trim($("#experience").val());
-		var education = $.trim($("#education").val());
-		var desc = $.trim($("#desc").val());
-		var responsibility = $.trim($("#responsibility").val());
-		var qualification = $.trim($("#qualification").val());
-
-		if(title==""){
-			alert("职位名 不能为空");
-			$("#title").focus();
-			return;
-		}
-		
-		kajax("AjaxAdmin","AddJob",{title:title,
-									count:count,
-									expire_time:expire_time,
-									location:location,
-									experience:experience,
-									education:education,
-									desc:desc,
-									responsibility:responsibility,
-									qualification:qualification},function(obj){
-								if(obj.code==1){
-									alert("添加成功。");console.log(1);
-									window.location.href="<?php echo $this->url("Admin","JobList");?>";
-								}else{
-									alert("添加失败。");
-								}
-		},this);
-	});
-});
-</script>
-
 <div id="colTwo">
 <div class="bg2">
 	<div class="title">新增职位</div>
@@ -107,3 +68,41 @@ $(document).ready(function(){
 	
 </div>
 </div>
+<script type="text/javascript" language="javascript">
+	$(document).ready(function(){
+		$("#btn_add").click(function(){
+			var title = $.trim($("#title").val());
+			var count = $.trim($("#count").val());
+			var expire_time = $.trim($("#expire_time").val());
+			var location = $.trim($("#location").val());
+			var experience = $.trim($("#experience").val());
+			var education = $.trim($("#education").val());
+			var desc = $.trim($("#desc").val());
+			var responsibility = $.trim($("#responsibility").val());
+			var qualification = $.trim($("#qualification").val());
+
+			if(title==""){
+				alert("职位名 不能为空");
+				$("#title").focus();
+				return;
+			}
+			
+			kajax("AjaxAdmin","AddJob",{title:title,
+										count:count,
+										expire_time:expire_time,
+										location:location,
+										experience:experience,
+										education:education,
+										desc:desc,
+										responsibility:responsibility,
+										qualification:qualification},function(obj){
+									if(obj.code==1){
+										alert("添加成功。");console.log(1);
+										window.location.href="<?php echo $this->url("Admin","JobList");?>";
+									}else{
+										alert("添加失败。");
+									}
+			},this);
+		});
+	});
+</script>

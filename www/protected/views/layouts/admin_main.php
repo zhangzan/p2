@@ -3,21 +3,17 @@ $model = select_dba ()->select_row ( "select name from admin where id = :id", ar
 		':id' => Yii::app ()->user->id
 ) );
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta charset="utf-8"/>
 <title>后台管理系统</title>
-<link type="text/css"
-	href="<?=Yii::app()->getBaseUrl()?>/admin/default.css"
-	rel="stylesheet" />
+<link type="text/css" href="<?=Yii::app()->getBaseUrl()?>/admin/default.css" rel="stylesheet" />
 <script type="text/javascript" src="<?=$this->url('js/jquery.min.js')?>"></script>
 <script type="text/javascript" src="<?=$this->url('js/utils.js')?>"></script>
 <script type="text/javascript" src="<?=$this->url('js/listtable.js')?>"></script>
 <script type="text/javascript" charset="utf-8" src="<?=Yii::app()->getBaseUrl()?>/admin/My97DatePicker/WdatePicker.js?>"></script>
-<script type="text/javascript"
-	src="<?=$this->url('js/jquery.blockUI.js')?>"></script>
-
+<script type="text/javascript" src="<?=$this->url('js/jquery.blockUI.js')?>"></script>
 <script type="text/javascript">
 var STATIC_BASE_URL=<?=json_encode(Yii::app()->getBaseUrl())?>;
 var CODE_BASE_URL=<?=json_encode(Yii::app()->getBaseUrl()."/index.php")?>;
@@ -41,7 +37,6 @@ input.btn { width: 60px; margin-top: 30px; background-color: #D3E862; }
 <body>
 	<div id="header">
 		<h1>ADMIN管理工具</h1>
-
 <?php
 if (! Yii::app ()->user->isGuest) {
 	?>

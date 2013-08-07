@@ -3,7 +3,7 @@ class Mlinks {
 	
 	public static function addLinks($name,$href) {
 		$dba = select_dba();
-		$dba->execute("insert into links(`name`,`href`)", array(
+		$dba->execute("insert into links(name,href) values(:name,:href)", array(
 			':name'=>$name,':href'=>$href
 			));
 	}

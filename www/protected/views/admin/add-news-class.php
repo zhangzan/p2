@@ -6,8 +6,6 @@
 			return false;
 		}
 	}
-
-
 </script>
 
 <div id="colTwo">

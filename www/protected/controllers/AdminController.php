@@ -65,6 +65,15 @@ class AdminController extends PageController {
 				exit ( "更新失败!" );
 			}
 		}
+		/* 增加友情链接信息 */
+		if (@$_REQUEST ['act'] == 'add') {
+			$name = $this->qp ( "name", 'str' );
+			$href = $this->qp ( "href", 'str' );
+			$model = "links";
+			$res = MLinks::addLinks ( $name, $href );
+			$this->redirect($this->url('Admin', 'LinksList'));
+			exit;
+		}
 		/* 删除友情链接信息 */
 		if (@$_REQUEST ['act'] == 'del') {
 			$id = $_REQUEST ['id'];
@@ -81,14 +90,11 @@ class AdminController extends PageController {
 
 		$links_list = MLinks::getLinksList();
 		$this->output ( 'links-list', array (
+				'url' => 'LinksList',
 				'links_list' => $links_list
 		));
 	}
-	/* 新增友情链接类别 */
-	public function actionAddLinks() {
-		$this->output("add-links");
-	}
-
+	
 	/* 新闻类别列表 */
 	public function actionNewsClassList() {
 
