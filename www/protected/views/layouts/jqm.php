@@ -88,7 +88,7 @@ var TEST_SERVER_FLAG = <?php echo TEST_SERVER_FLAG;?>;
         </ul>
      </div>
      <div class="r"><a><img src="<?php echo $this->url("images/logo.png");?>" alt="Robot_logo"></a></div>
-</div><!--header-end-->
+</div>
 <div id="maindiv" class="m">
 <?php echo $content; ?>
 </div>

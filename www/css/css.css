@@ -43,16 +43,15 @@ select{ width:90px; text-indent:10px; } .pr{ position:relative; } .vh{ visibilit
 .nav .nav-pro-r{ float:right; }
 .ban{ position:relative; margin-bottom:10px; zoom:1; }
 .ban a{ display:block; }
-.f{ position:absolute; right:25px; bottom:20px; _bottom:35px; } 
-.f a{ border:1px #5e5b5a solid; width:7px; height:7px; _width:15px; float:left; margin-left:5px; }
-.f a:hover{ border-color:#b3b3b3; background:#b3b3b3; }
-.f .a-hover{ border-color:#b3b3b3; background:#b3b3b3; }
+.ban .hd{ position:absolute; right:25px; bottom:20px; _bottom:35px; } 
+.ban .hd li{ border:1px #5e5b5a solid; width:7px; height:7px; _width:15px; float:left; margin-left:5px; }
+.ban .hd li:hover,.ban .hd .on{ border-color:#b3b3b3; background:#b3b3b3; }
 .pro{ background:url(../images/m-bg.png); height:163px; position:relative; }
 .pro-in{ width:875px; height:101px; position:relative; top:30px; left:55px; overflow:hidden; }
 .pro ul{ top:0; left:0; overflow:hidden; height:101px; position:absolute; }
 .pro li{ width:160px; float:left; margin-left:15px; }
 .pro li p{ background:url(../images/m-tit.png); height:20px; line-height:20px; text-align:center; }
-.arrl,.arrr{ background:url(../images/arr.png) no-repeat; width:23px; height:33px; position:absolute; top:62px; display:block; }
+.arrl,.arrr{ background:url(../images/arr.png) no-repeat; width:23px; height:33px; position:absolute; top:62px; display:block; cursor: pointer;}
 .arrl{ left:20px; }
 .arrr{ background-position:-24px 0; right:20px; }
 .note{ background:url(../images/m-bg2.jpg); height:35px; line-height:40px; overflow:hidden; padding-left:80px; }
