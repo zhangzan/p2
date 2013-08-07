@@ -15,6 +15,7 @@ var TEST_SERVER_FLAG = <?php echo TEST_SERVER_FLAG;?>;
 </script>
 <script type="text/javascript" src="<?php echo $this->url('js/main.js'); ?>"></script>
 <script type="text/javascript" src="<?php echo $this->url('js/url.js'); ?>"></script>
+<script type="text/javascript" src="<?php echo $this->url('js/SuperSlide.js'); ?>"></script>
 <script type="text/javascript" src="<?php echo $this->url('js/helper.js'); ?>"></script>
 <script type="text/javascript" src="<?php echo $this->url('js/jscroll.js'); ?>"></script>
 <script type="text/javascript" src="<?php echo $this->url('js/swfobject.js'); ?>"></script>
