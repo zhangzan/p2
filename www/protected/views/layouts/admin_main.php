@@ -12,7 +12,6 @@ $model = select_dba ()->select_row ( "select name from admin where id = :id", ar
 <script type="text/javascript" src="<?=$this->url('js/jquery.min.js')?>"></script>
 <script type="text/javascript" src="<?=$this->url('js/utils.js')?>"></script>
 <script type="text/javascript" src="<?=$this->url('js/listtable.js')?>"></script>
-<script type="text/javascript" charset="utf-8" src="<?=Yii::app()->getBaseUrl()?>/admin/My97DatePicker/WdatePicker.js?>"></script>
 <script type="text/javascript" src="<?=$this->url('js/jquery.blockUI.js')?>"></script>
 <script type="text/javascript">
 var STATIC_BASE_URL=<?=json_encode(Yii::app()->getBaseUrl())?>;

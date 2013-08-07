@@ -53,7 +53,6 @@ $(document).ready(function(){
 	});
 });
 </script>
-
 <div id="colTwo">
 <div class="bg2">
 	<div class="title">新增活动行程</div>

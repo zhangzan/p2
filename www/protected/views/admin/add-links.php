@@ -4,34 +4,20 @@
 			<tr>
 				<td>名称：<input type="text" id="name"></td>
 				<td>链接：<input type="text" id="href"></td>
-				<td><input type="submit" value="添加" id="add"></td>
+				<td><input type="button" value="添加" id="add_links"></td>
 			</tr>
 	</table>
 </div>
 </div>
-<script type="text/javascript" language="javascript">
-$("#add").click(function(){
-	alert(1);
-	var name = $.trim($("#name").val());
-	var href = $.trim($("#href").val());
-	if(name==""){
-		alert("链接名 不能为空");
-		$("#name").focus();
-		return;
-	}
-	if(href==""){
-		alert("链接 不能为空");
-		$("#name").focus();
-		return;
-	}
-	
-	kajax("AjaxAdmin","AddLinks",{name:name,href:href, function(obj){
-					if(obj.code==1){
-						alert("添加成功。");console.log(1);
-						window.location.href="<?php echo $this->url("Admin","LinksList");?>";
-					}else{
-						alert("添加失败。");
-					}
-	},this)};
-});
+<script type="text/javascript">
+	$("#add_links").click(function(){
+		var name = $.trim($('#name').val());
+		var href = $.trim($('#href').val());
+		if(name==""){alert("名字不能为空!"); return false; }
+		if(!/^([^\.\s]+\.[^\.\s]+)+$/.test(href)){alert('请输入正确网址');return;};
+		
+		kajax("AjaxAdmin","AddLinks",{name:name,href:href},function(obj){
+							location.href=get_url("Admin","Linkslist");
+		},this);
+	});
 </script>

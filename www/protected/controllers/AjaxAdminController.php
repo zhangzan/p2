@@ -152,6 +152,16 @@ class AjaxAdminController extends AjaxController {
 		$this->output($bind);
 	}
 
+	public function actionAddLinks() {
+		$name = $this->qp('name', 'str');
+		$href = $this->qp('href', 'str');
+
+		MLinks::addLinks($name, $href);
+		$bind=array();
+		$bind['code']=1;
+		$this->output($bind);
+	}
+
 	public function actionDeleteEvent() {
 		$id = $this->qp('id', 'uint');
 

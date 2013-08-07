@@ -550,6 +550,10 @@ class AdminController extends PageController {
 		$this->output('add-Event');
 	}
 
+	public function actionAddLinks() {
+		$this->output('add-Links');
+	}
+
 	public function actionHideShowEvent() {
 		$id = $this->qp('id', 'uint');
 		$status = $this->qp('status', 'uint');
