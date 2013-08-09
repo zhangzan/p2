@@ -200,9 +200,7 @@ class AdminController extends PageController {
 		if (@$_REQUEST ['act'] == 'del') {
 			$id = $_REQUEST ['id'];
 			if (MNews::deleteNewsById ( $id )) {
-				$this->showMsg ( "提示", "新闻删除成功", array (
-						'新闻列表' => 'NewsManage'
-				), 2 );
+				
 			} else {
 				$this->showMsg ( "提示", "新闻删除失败", array (
 						'新闻列表' => 'NewsManage'

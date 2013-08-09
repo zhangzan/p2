@@ -8,7 +8,7 @@ $model = select_dba ()->select_row ( "select name from admin where id = :id", ar
 <head>
 <meta charset="utf-8"/>
 <title>后台管理系统</title>
-<link type="text/css" href="<?=Yii::app()->getBaseUrl()?>/admin/default.css" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="<?=$this->url('css/admin.css')?>">
 <script type="text/javascript" src="<?=$this->url('js/jquery.min.js')?>"></script>
 <script type="text/javascript" src="<?=$this->url('js/utils.js')?>"></script>
 <script type="text/javascript" src="<?=$this->url('js/listtable.js')?>"></script>
@@ -22,28 +22,13 @@ var TEST_SERVER_FLAG = <?php echo TEST_SERVER_FLAG;?>;
 <script type="text/javascript" src="<?=$this->url('js/main.js')?>"></script>
 <script type="text/javascript" src="<?=$this->url('js/url.js')?>"></script>
 <script type="text/javascript" src="<?=$this->url('js/helper.js')?>"></script>
-<style type="text/css">
-.left { float: left; display: inline; }
-input.btn { width: 60px; margin-top: 30px; background-color: #D3E862; }
-.login-body { width: 250px; padding: 0px 0 20px 100px; }
-.login-title { font-weight: bold; font-size: 14px; color: #D3E862; }
-.login-form { height: 280px; margin: 10px 0 10px auto; padding-top: 20px; border-right: 1px solid #D3E862; }
-.login-form span.key { width: 60px; height: 16px; line-height: 16px; display: inline; float: left; margin-bottom: 10px; padding: 2px; text-align: right; font-weight: bold; border-top: 1px solid #aaa; border-left: 1px solid #aaa; border-bottom: 1px solid #ccc; background-color: #fff; }
-.login-form input.txt { width: 140px; height: 16px; line-height: 16px; display: inline; float: left; margin-bottom: 10px; padding: 2px; border-top: 1px solid #aaa; border-left: 0; border-right: 1px solid #ccc; border-bottom: 1px solid #ccc; background-color: #fff; }
-.login-info { width: 400px; padding: 50px 20px 20px 30px; ; }
-</style>
 </head>
 <body>
-	<div id="header">
-		<h1>ADMIN管理工具</h1>
-<?php
-if (! Yii::app ()->user->isGuest) {
-	?>
-	<h2>欢迎回来，<?=$model['name']?></h2>
-		<ul>
-			<li><a href="<?=$this->url('Admin','Logout')?>">登出</a></li>
-		</ul>
-	</div>
+	<header>
+		<i>后台管理工具</i>
+		<?php if (! Yii::app ()->user->isGuest) {?>
+		<?=$model['name']?><a href="<?=$this->url('Admin','Logout')?>">登出</a>
+	</header>
 	<div id="content">
 		<div id="colOne">
 			<h3>友情链接</h3>
@@ -138,6 +123,5 @@ if (! Yii::app ()->user->isGuest) {
 	 	</div>
 <?php }?>
 			<?php echo $content; ?>
-	<div id="footer"> </div>
 </body>
 </html>

@@ -1,15 +1,13 @@
 <div id="colTwo">
 <div class="bg2">
 	<div class="title"> 添加友情链接 </div>
-	<form action="<?=$url?>" method="post" id="form">
-		<table cellpadding="0" cellspacing="0" width="100%">
-			<tr>
-				<td>名称：<input type="text" id="name" name="name"></td>
-				<td>链接：<input type="text" id="href" name="href"></td>
-				<td><input type="submit" value="添加" onclick="return checkIsNull();"><input type="hidden" name="act" value="add"></td>
-			</tr>
-		</table>
-	</form>
+	<table cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+			<td>名称：<input type="text" id="name" name="name"></td>
+			<td>链接：<input type="text" id="href" name="href"></td>
+			<td><input type="submit" value="添加" id="add_links"></td>
+		</tr>
+	</table>
 	<div class="title">友情链接列表</div>
 	<table cellpadding="0" cellspacing="0" width="100%">
 		<tr>
@@ -38,10 +36,14 @@
 			window.location="LinksList?act=del&id="+id;
 		}
 	}
-	function checkIsNull(){
-		var s1=$('#name').val();
-		var s2=$('#href').val();
-		if(s1==""){alert("名字不能为空!"); return false; }
-		if(!/^([^\.\s]+\.[^\.\s]+)+$/.test(s2)){alert('请输入正确网址');return;};
-	}
+	$("#add_links").click(function(){
+		var name = $.trim($('#name').val());
+		var href = $.trim($('#href').val());
+		if(name==""){alert("名字不能为空!"); return false; }
+		if(!/^([^\.\s]+\.[^\.\s]+)+$/.test(href)){alert('请输入正确网址');return;};
+		
+		kajax("AjaxAdmin","AddLinks",{name:name,href:href},function(obj){
+							location.href=get_url("Admin","Linkslist");
+		},this);
+	});
 </script>

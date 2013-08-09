@@ -5,15 +5,10 @@
 			window.location="NewsManage?act=del&id="+id;
 		}
 	}
-
 </script>
 <div id="colTwo">
 <div class="bg2">
-	<div class="title">
-		新闻列表
-	</div>
-
-
+	<div class="title">新闻列表</div>
 	<table cellpadding="0" cellspacing="0" width="100%">
 		<tr>
 			<th width="65px">文章编号</th>
@@ -40,10 +35,7 @@
 						<a href='#' onclick='del(<?=$val['id']?>)'>删除</a>
 					</td>
 				</tr>
-
-		<?php	}
-
-		?>
+		<?php	} ?>
 	</table>
 </div>
 </div>

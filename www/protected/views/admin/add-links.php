@@ -1,13 +1,13 @@
 <div id="colTwo">
-<div class="bg2">
-	<table cellpadding="0" cellspacing="0" width="100%">
-			<tr>
-				<td>名称：<input type="text" id="name"></td>
-				<td>链接：<input type="text" id="href"></td>
-				<td><input type="button" value="添加" id="add_links"></td>
-			</tr>
-	</table>
-</div>
+	<div class="bg2">
+		<table cellpadding="0" cellspacing="0" width="100%">
+				<tr>
+					<td>名称：<input type="text" id="name"></td>
+					<td>链接：<input type="text" id="href"></td>
+					<td><input type="button" value="添加" id="add_links"></td>
+				</tr>
+		</table>
+	</div>
 </div>
 <script type="text/javascript">
 	$("#add_links").click(function(){

@@ -32,10 +32,7 @@
 	<?php } ?>
 
 	}
-
-
 </script>
-
 <div id="colTwo">
 <div class="bg2">
 	<div class="title">
@@ -69,7 +66,7 @@
 		<tr>
 			<td colspan="2">
 				&nbsp;&nbsp;&nbsp;&nbsp;
-
+  
 				<input type="submit" value="<?php if($act=="add"){echo "增加";}elseif($act=="edit"){echo "更新";}?>" onclick="return checkIsNull();"/>
 				<input type="button" value="返回" onclick="history.go(-1);" />
 				<?php if($act=="edit"){

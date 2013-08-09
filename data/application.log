@@ -2056,3 +2056,315 @@ Stack trace:
 #3 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
 #4 D:\wamp\www\p2\www\index.php(3): CApplication->run()
 #5 {main} REQUEST_URI=/p2/www/admin/My97DatePicker/WdatePicker.js?%3E
+2013/08/08 13:18:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/1.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('css/1.gif')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/css/1.gif
+2013/08/08 13:18:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/2.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('css/2.gif')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/css/2.gif
+2013/08/08 13:18:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/4.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('css/4.gif')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/css/4.gif
+2013/08/08 13:18:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/3.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('css/3.gif')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/css/3.gif
+2013/08/08 13:18:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/5.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('css/5.gif')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/css/5.gif
+2013/08/08 13:18:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/6.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('css/6.gif')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/css/6.gif
+2013/08/08 13:18:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/7.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('css/7.gif')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/css/7.gif
+2013/08/08 16:07:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_repno.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('images/bg_repno...')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/images/bg_repno.gif
+2013/08/08 16:07:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/bg_repx_hc.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('img/bg_repx_hc....')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/img/bg_repx_hc.gif
+2013/08/08 16:07:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/bg_repx_hc.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('img/bg_repx_hc....')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/img/bg_repx_hc.gif
+2013/08/08 16:07:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_repno.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('images/bg_repno...')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/images/bg_repno.gif
+2013/08/08 16:27:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/2.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('css/2.gif')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/css/2.gif
+2013/08/08 16:27:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/5.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('css/5.gif')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/css/5.gif
+2013/08/08 16:27:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/4.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('css/4.gif')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/css/4.gif
+2013/08/08 16:27:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/6.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('css/6.gif')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/css/6.gif
+2013/08/08 16:37:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/2.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('css/2.gif')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/css/2.gif
+2013/08/08 16:37:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/5.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('css/5.gif')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/css/5.gif
+2013/08/08 16:37:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/4.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('css/4.gif')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/css/4.gif
+2013/08/08 16:37:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/6.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('css/6.gif')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/css/6.gif
+2013/08/08 16:37:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/2.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('css/2.gif')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/css/2.gif
+2013/08/08 16:37:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/4.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('css/4.gif')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/css/4.gif
+2013/08/08 16:37:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/5.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('css/5.gif')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/css/5.gif
+2013/08/08 16:37:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/6.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('css/6.gif')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/css/6.gif
+2013/08/08 16:37:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/4.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('css/4.gif')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/css/4.gif
+2013/08/08 16:37:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/2.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('css/2.gif')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/css/2.gif
+2013/08/08 16:37:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/5.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('css/5.gif')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/css/5.gif
+2013/08/08 16:37:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/6.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('css/6.gif')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/css/6.gif
+2013/08/08 16:40:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/2.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('css/2.gif')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/css/2.gif
+2013/08/08 16:40:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/4.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('css/4.gif')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/css/4.gif
+2013/08/08 16:40:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/5.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('css/5.gif')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/css/5.gif
+2013/08/08 16:40:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/6.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('css/6.gif')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/css/6.gif
+2013/08/08 16:41:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/4.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('css/4.gif')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/css/4.gif
+2013/08/08 16:41:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/2.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('css/2.gif')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/css/2.gif
+2013/08/08 16:41:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/5.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('css/5.gif')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/css/5.gif
+2013/08/08 16:41:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/6.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('css/6.gif')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/css/6.gif
+2013/08/08 16:41:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/4.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('css/4.gif')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/css/4.gif
+2013/08/08 16:41:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/2.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('css/2.gif')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/css/2.gif
+2013/08/08 16:41:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/5.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('css/5.gif')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/css/5.gif
+2013/08/08 16:41:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/6.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('css/6.gif')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/css/6.gif
+2013/08/08 16:43:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/2.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('css/2.gif')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/css/2.gif
+2013/08/08 16:43:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/4.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('css/4.gif')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/css/4.gif
+2013/08/08 16:43:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/5.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('css/5.gif')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/css/5.gif
+2013/08/08 16:43:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/6.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('css/6.gif')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/css/6.gif
+2013/08/08 16:43:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/2.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('css/2.gif')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/css/2.gif
+2013/08/08 16:43:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/4.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('css/4.gif')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/css/4.gif
+2013/08/08 16:43:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/5.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('css/5.gif')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/css/5.gif
+2013/08/08 16:43:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/6.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('css/6.gif')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/css/6.gif
+2013/08/08 16:44:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/5.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('css/5.gif')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/css/5.gif
+2013/08/08 16:44:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/4.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('css/4.gif')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/css/4.gif
+2013/08/08 16:44:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/6.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('css/6.gif')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/css/6.gif
+2013/08/08 16:50:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/4.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('css/4.gif')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/css/4.gif
+2013/08/08 16:50:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/4.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('css/4.gif')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/css/4.gif

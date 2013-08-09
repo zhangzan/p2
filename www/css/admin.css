@@ -1,0 +1,63 @@
+/*
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+body { margin: 0; padding: 0;font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; font-size: 12px; color: #8F8F8F; }
+h1,h2, h3, h4, h5, h6 { margin: 0; }
+h2 { text-transform: lowercase; letter-spacing: -1px; font-size: 26px; font-weight: normal; color: #31576F; }
+h2 em { font-weight: bold; font-style: normal; }
+h3 { height: 25px; background: #0077A7; padding: 13px 0 0 20px; text-transform: lowercase; font-size: 12px; color: #fff; }
+ul { margin-left: 0; padding-left: 0; list-style-position: inside; }
+a { color: #6B6B6B; }
+a:hover { text-decoration: none; }
+table{border-spacing: 0; width: 100%;border: solid #ccc 1px; border-radius: 6px; box-shadow: 0 1px 1px #ccc;}
+tr{transition:0.1s ease-in-out;}
+tr:hover {background: #fbf8e9}
+td,th {border-left: 1px solid #ccc; border-top: 1px solid #ccc; padding: 10px; text-align: left;}
+th {background-color: #dce9f9; background-image: linear-gradient(top, #ebf3fc, #dce9f9); box-shadow: 0 1px 0 rgba(255,255,255,.8) inset; border-top: none; text-shadow: 0 1px 0 rgba(255,255,255,.5); }
+td:first-child,th:first-child {border-left: none;}
+th:first-child {border-radius: 6px 0 0 0;}
+th:last-child {border-radius: 0 6px 0 0;}
+tr:last-child td:first-child {border-radius: 0 0 0 6px;}
+tr:last-child td:last-child {border-radius: 0 0 6px 0;}
+
+.image { float: left; margin: 0 20px 0 0; }
+.bg1 {padding: 0 20px 0px 20px; border-top: 1px solid #fff; background: #fff url(4.gif) repeat-x; }
+.bg2 { padding: 20px; border-top: 1px solid #CBE1EF; background: #fff url(4.gif) repeat-x; }
+/* Header */
+header {background-color: #333; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), 0 -1px 0 rgba(0, 0, 0, 0.1) inset; height: 40px; }
+/* Content */
+#content { width: 1022px; margin: 0 auto; }
+#colOne { float: left; width: 156px; }
+#colOne ul { padding-left: 0; list-style: none none outside; }
+#colOne li { padding: 5px 0; background: url(5.gif) repeat-x; }
+#colOne li.first { background: none; }
+#colTwo { float: right; width: 846px; }
+.clear { clear: both; overflow:hidden; height:0; }
+/* Footer */
+#footer { clear: both; width: 992px; margin: 0 auto; padding: 30px 0; background: url(6.gif) repeat-x}
+#footer p { margin: 0; text-align: center; text-transform: lowercase; }
+.title { font-size: 16px; font-family: simhei; line-height: 1.8em; }
+.bg2 span{display: inline-block;height: 22px;line-height: 25px;width: 100%;cursor: pointer;}
+.bg2 input[type="text"]{border: none;outline: none;background: rgba(128, 219, 219,.1);text-indent: 1em; height: 22px;color: #000;border-radius: 5px;box-shadow: inset 0 0 1px rgb(65, 230, 230);transition:.3s;}
+.bg2 input[type="text"]:focus{box-shadow: inset 0 0 5px rgba(128, 219, 219,.5);background: rgb(128, 219, 219);color: #fff;}
+.even{ background-color:#EBF5FB; }#content #colTwo .bg2 tr.no_border td { border: none; }
+ul.yiiPager{ font-size:12px; border:0; margin:0; padding:0; line-height:100%; display:inline; }
+ul.yiiPager li { display:inline; }
+ul.yiiPager a:link,
+ul.yiiPager a:visited
+{ border:solid 1px #9aafe5; font-weight:bold; color:#0e509e; padding:1px 6px; text-decoration:none; }
+ul.yiiPager .page a { font-weight:normal; }
+ul.yiiPager a:hover { border:solid 1px #0e509e; }
+ul.yiiPager .selected a { background:#2e6ab1; color:#FFFFFF; font-weight:bold; }
+ul.yiiPager .hidden a { border:solid 1px #DEDEDE; color:#888888; }
+
+.left { float: left; display: inline; }
+input.btn { width: 60px; margin-top: 30px; background-color: #D3E862; }
+.login-body { width: 250px; padding: 0px 0 20px 100px; }
+.login-title { font-weight: bold; font-size: 14px; color: #D3E862; }
+.login-form { height: 280px; margin: 10px 0 10px auto; padding-top: 20px; border-right: 1px solid #D3E862; }
+.login-form span.key { width: 60px; height: 16px; line-height: 16px; display: inline; float: left; margin-bottom: 10px; padding: 2px; text-align: right; font-weight: bold; border-top: 1px solid #aaa; border-left: 1px solid #aaa; border-bottom: 1px solid #ccc; background-color: #fff; }
+.login-form input.txt { width: 140px; height: 16px; line-height: 16px; display: inline; float: left; margin-bottom: 10px; padding: 2px; border-top: 1px solid #aaa; border-left: 0; border-right: 1px solid #ccc; border-bottom: 1px solid #ccc; background-color: #fff; }
+.login-info { width: 400px; padding: 50px 20px 20px 30px; ; }
