@@ -25,7 +25,7 @@ class AdminController extends PageController {
 			$model->attributes=$_POST['adminLoginForm'];
 			if ($model->validate() && $model-> login ()) {
 				KAdmin::adminLogin($model->username);
-				$this-> jump ( $this-> url ( 'Admin', 'NewsManage' ) );
+				$this-> jump ( $this-> url ( 'Admin', 'Main' ) );
 			}
 		}
 		$this-> output ( 'login', array (

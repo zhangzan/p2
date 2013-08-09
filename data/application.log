@@ -2762,3 +2762,63 @@ REQUEST_URI=/p2/www/Admin/Main.html
 in D:\wamp\www\p2\www\protected\views\admin\main.php (94)
 in D:\wamp\www\p2\www\protected\components\PageController.php (11)
 in D:\wamp\www\p2\www\protected\controllers\AdminController.php (17)
+2013/08/09 22:24:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/bg_repx_hc.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('img/bg_repx_hc....')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/img/bg_repx_hc.gif
+2013/08/09 22:24:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_repno.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('images/bg_repno...')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/images/bg_repno.gif
+2013/08/10 01:52:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "font".' in D:\wamp\www\p2\yii\framework\web\CController.php:477
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CController.php(262): CController->missingAction('font')
+#1 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(277): CController->run('font')
+#2 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('admin/font/font...')
+#3 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#5 {main} REQUEST_URI=/p2/www/admin/font/fontawesome-webfont.woff
+2013/08/10 01:52:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "font".' in D:\wamp\www\p2\yii\framework\web\CController.php:477
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CController.php(262): CController->missingAction('font')
+#1 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(277): CController->run('font')
+#2 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('admin/font/font...')
+#3 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#5 {main} REQUEST_URI=/p2/www/admin/font/fontawesome-webfont.ttf
+2013/08/10 01:52:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "font".' in D:\wamp\www\p2\yii\framework\web\CController.php:477
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CController.php(262): CController->missingAction('font')
+#1 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(277): CController->run('font')
+#2 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('admin/font/font...')
+#3 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#5 {main} REQUEST_URI=/p2/www/admin/font/fontawesome-webfont.svg
+2013/08/10 01:53:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "font".' in D:\wamp\www\p2\yii\framework\web\CController.php:477
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CController.php(262): CController->missingAction('font')
+#1 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(277): CController->run('font')
+#2 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('admin/font/font...')
+#3 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#5 {main} REQUEST_URI=/p2/www/admin/font/fontawesome-webfont.woff
+2013/08/10 01:53:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "font".' in D:\wamp\www\p2\yii\framework\web\CController.php:477
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CController.php(262): CController->missingAction('font')
+#1 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(277): CController->run('font')
+#2 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('admin/font/font...')
+#3 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#5 {main} REQUEST_URI=/p2/www/admin/font/fontawesome-webfont.ttf
+2013/08/10 01:53:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "font".' in D:\wamp\www\p2\yii\framework\web\CController.php:477
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CController.php(262): CController->missingAction('font')
+#1 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(277): CController->run('font')
+#2 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('admin/font/font...')
+#3 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#5 {main} REQUEST_URI=/p2/www/admin/font/fontawesome-webfont.svg
