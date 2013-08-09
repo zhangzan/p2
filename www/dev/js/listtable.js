@@ -16,7 +16,7 @@ listTable.edit = function(obj, act,id)
   var txt = document.createElement("input");
   txt.value = (val == 'N/A') ? '' : val;
   txt.type = 'text';
-  txt.style.width = (obj.offsetWidth) + "px" ;
+  // txt.style.width = (obj.offsetWidth) + "px" ;
   /* 隐藏对象中的内容，并将输入框加入到对象中 */
   obj.innerHTML = "";
   obj.appendChild(txt);

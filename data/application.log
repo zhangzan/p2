@@ -2368,3 +2368,397 @@ Stack trace:
 #1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
 #2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
 #3 {main} REQUEST_URI=/p2/www/css/4.gif
+2013/08/09 08:47:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/4.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('css/4.gif')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/css/4.gif
+2013/08/09 08:47:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/5.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('css/5.gif')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/css/5.gif
+2013/08/09 09:08:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/bg_repx_hc.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('img/bg_repx_hc....')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/img/bg_repx_hc.gif
+2013/08/09 09:08:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_repno.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('images/bg_repno...')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/images/bg_repno.gif
+2013/08/09 09:40:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/4.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('css/4.gif')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/css/4.gif
+2013/08/09 09:40:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/5.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('css/5.gif')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/css/5.gif
+2013/08/09 09:41:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/4.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('css/4.gif')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/css/4.gif
+2013/08/09 09:41:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/5.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('css/5.gif')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/css/5.gif
+2013/08/09 09:42:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/4.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('css/4.gif')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/css/4.gif
+2013/08/09 09:42:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/5.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('css/5.gif')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/css/5.gif
+2013/08/09 09:42:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/4.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('css/4.gif')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/css/4.gif
+2013/08/09 09:42:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/5.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('css/5.gif')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/css/5.gif
+2013/08/09 10:36:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/5.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('css/5.gif')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/css/5.gif
+2013/08/09 10:36:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/4.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('css/4.gif')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/css/4.gif
+2013/08/09 10:51:35 [error] [php] Undefined variable: table (D:\wamp\www\p2\www\protected\views\admin\links-list.php:42)
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CController.php(866): AdminController->renderFile()
+#1 D:\wamp\www\p2\yii\framework\web\CController.php(779): AdminController->renderPartial()
+#2 D:\wamp\www\p2\www\protected\components\PageController.php(11): AdminController->render()
+#3 D:\wamp\www\p2\www\protected\controllers\AdminController.php(95): AdminController->output()
+#4 D:\wamp\www\p2\yii\framework\web\actions\CInlineAction.php(50): AdminController->actionLinksList()
+#5 D:\wamp\www\p2\yii\framework\web\CController.php(300): CInlineAction->runWithParams()
+#6 D:\wamp\www\p2\yii\framework\web\filters\CFilterChain.php(134): AdminController->runAction()
+#7 D:\wamp\www\p2\www\protected\controllers\AdminController.php(13): CFilterChain->run()
+#8 D:\wamp\www\p2\yii\framework\web\filters\CInlineFilter.php(59): AdminController->filterCheckAdminLogin()
+#9 D:\wamp\www\p2\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#10 D:\wamp\www\p2\yii\framework\web\CController.php(283): CFilterChain->run()
+#11 D:\wamp\www\p2\yii\framework\web\CController.php(257): AdminController->runActionWithFilters()
+#12 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(277): AdminController->run()
+#13 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController()
+#14 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#15 D:\wamp\www\p2\www\index.php(3): CWebApplication->run()
+REQUEST_URI=/p2/www/index.php/Admin/Linkslist
+in D:\wamp\www\p2\www\protected\views\admin\links-list.php (42)
+in D:\wamp\www\p2\www\protected\components\PageController.php (11)
+in D:\wamp\www\p2\www\protected\controllers\AdminController.php (95)
+2013/08/09 10:51:35 [error] [php] Undefined variable: table (D:\wamp\www\p2\www\protected\views\admin\links-list.php:42)
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CController.php(866): AdminController->renderFile()
+#1 D:\wamp\www\p2\yii\framework\web\CController.php(779): AdminController->renderPartial()
+#2 D:\wamp\www\p2\www\protected\components\PageController.php(11): AdminController->render()
+#3 D:\wamp\www\p2\www\protected\controllers\AdminController.php(95): AdminController->output()
+#4 D:\wamp\www\p2\yii\framework\web\actions\CInlineAction.php(50): AdminController->actionLinksList()
+#5 D:\wamp\www\p2\yii\framework\web\CController.php(300): CInlineAction->runWithParams()
+#6 D:\wamp\www\p2\yii\framework\web\filters\CFilterChain.php(134): AdminController->runAction()
+#7 D:\wamp\www\p2\www\protected\controllers\AdminController.php(13): CFilterChain->run()
+#8 D:\wamp\www\p2\yii\framework\web\filters\CInlineFilter.php(59): AdminController->filterCheckAdminLogin()
+#9 D:\wamp\www\p2\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#10 D:\wamp\www\p2\yii\framework\web\CController.php(283): CFilterChain->run()
+#11 D:\wamp\www\p2\yii\framework\web\CController.php(257): AdminController->runActionWithFilters()
+#12 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(277): AdminController->run()
+#13 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController()
+#14 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#15 D:\wamp\www\p2\www\index.php(3): CWebApplication->run()
+REQUEST_URI=/p2/www/index.php/Admin/Linkslist
+in D:\wamp\www\p2\www\protected\views\admin\links-list.php (42)
+in D:\wamp\www\p2\www\protected\components\PageController.php (11)
+in D:\wamp\www\p2\www\protected\controllers\AdminController.php (95)
+2013/08/09 10:51:45 [error] [php] Undefined variable: table (D:\wamp\www\p2\www\protected\views\admin\links-list.php:42)
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CController.php(866): AdminController->renderFile()
+#1 D:\wamp\www\p2\yii\framework\web\CController.php(779): AdminController->renderPartial()
+#2 D:\wamp\www\p2\www\protected\components\PageController.php(11): AdminController->render()
+#3 D:\wamp\www\p2\www\protected\controllers\AdminController.php(95): AdminController->output()
+#4 D:\wamp\www\p2\yii\framework\web\actions\CInlineAction.php(50): AdminController->actionLinksList()
+#5 D:\wamp\www\p2\yii\framework\web\CController.php(300): CInlineAction->runWithParams()
+#6 D:\wamp\www\p2\yii\framework\web\filters\CFilterChain.php(134): AdminController->runAction()
+#7 D:\wamp\www\p2\www\protected\controllers\AdminController.php(13): CFilterChain->run()
+#8 D:\wamp\www\p2\yii\framework\web\filters\CInlineFilter.php(59): AdminController->filterCheckAdminLogin()
+#9 D:\wamp\www\p2\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#10 D:\wamp\www\p2\yii\framework\web\CController.php(283): CFilterChain->run()
+#11 D:\wamp\www\p2\yii\framework\web\CController.php(257): AdminController->runActionWithFilters()
+#12 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(277): AdminController->run()
+#13 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController()
+#14 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#15 D:\wamp\www\p2\www\index.php(3): CWebApplication->run()
+REQUEST_URI=/p2/www/index.php/Admin/Linkslist
+in D:\wamp\www\p2\www\protected\views\admin\links-list.php (42)
+in D:\wamp\www\p2\www\protected\components\PageController.php (11)
+in D:\wamp\www\p2\www\protected\controllers\AdminController.php (95)
+2013/08/09 10:52:30 [error] [php] Undefined variable: table (D:\wamp\www\p2\www\protected\views\admin\links-list.php:42)
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CController.php(866): AdminController->renderFile()
+#1 D:\wamp\www\p2\yii\framework\web\CController.php(779): AdminController->renderPartial()
+#2 D:\wamp\www\p2\www\protected\components\PageController.php(11): AdminController->render()
+#3 D:\wamp\www\p2\www\protected\controllers\AdminController.php(95): AdminController->output()
+#4 D:\wamp\www\p2\yii\framework\web\actions\CInlineAction.php(50): AdminController->actionLinksList()
+#5 D:\wamp\www\p2\yii\framework\web\CController.php(300): CInlineAction->runWithParams()
+#6 D:\wamp\www\p2\yii\framework\web\filters\CFilterChain.php(134): AdminController->runAction()
+#7 D:\wamp\www\p2\www\protected\controllers\AdminController.php(13): CFilterChain->run()
+#8 D:\wamp\www\p2\yii\framework\web\filters\CInlineFilter.php(59): AdminController->filterCheckAdminLogin()
+#9 D:\wamp\www\p2\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#10 D:\wamp\www\p2\yii\framework\web\CController.php(283): CFilterChain->run()
+#11 D:\wamp\www\p2\yii\framework\web\CController.php(257): AdminController->runActionWithFilters()
+#12 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(277): AdminController->run()
+#13 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController()
+#14 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#15 D:\wamp\www\p2\www\index.php(3): CWebApplication->run()
+REQUEST_URI=/p2/www/index.php/Admin/Linkslist
+in D:\wamp\www\p2\www\protected\views\admin\links-list.php (42)
+in D:\wamp\www\p2\www\protected\components\PageController.php (11)
+in D:\wamp\www\p2\www\protected\controllers\AdminController.php (95)
+2013/08/09 10:52:33 [error] [php] Undefined variable: table (D:\wamp\www\p2\www\protected\views\admin\links-list.php:42)
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CController.php(866): AdminController->renderFile()
+#1 D:\wamp\www\p2\yii\framework\web\CController.php(779): AdminController->renderPartial()
+#2 D:\wamp\www\p2\www\protected\components\PageController.php(11): AdminController->render()
+#3 D:\wamp\www\p2\www\protected\controllers\AdminController.php(95): AdminController->output()
+#4 D:\wamp\www\p2\yii\framework\web\actions\CInlineAction.php(50): AdminController->actionLinksList()
+#5 D:\wamp\www\p2\yii\framework\web\CController.php(300): CInlineAction->runWithParams()
+#6 D:\wamp\www\p2\yii\framework\web\filters\CFilterChain.php(134): AdminController->runAction()
+#7 D:\wamp\www\p2\www\protected\controllers\AdminController.php(13): CFilterChain->run()
+#8 D:\wamp\www\p2\yii\framework\web\filters\CInlineFilter.php(59): AdminController->filterCheckAdminLogin()
+#9 D:\wamp\www\p2\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#10 D:\wamp\www\p2\yii\framework\web\CController.php(283): CFilterChain->run()
+#11 D:\wamp\www\p2\yii\framework\web\CController.php(257): AdminController->runActionWithFilters()
+#12 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(277): AdminController->run()
+#13 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController()
+#14 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#15 D:\wamp\www\p2\www\index.php(3): CWebApplication->run()
+REQUEST_URI=/p2/www/index.php/Admin/Linkslist
+in D:\wamp\www\p2\www\protected\views\admin\links-list.php (42)
+in D:\wamp\www\p2\www\protected\components\PageController.php (11)
+in D:\wamp\www\p2\www\protected\controllers\AdminController.php (95)
+2013/08/09 10:52:34 [error] [php] Undefined variable: table (D:\wamp\www\p2\www\protected\views\admin\links-list.php:42)
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CController.php(866): AdminController->renderFile()
+#1 D:\wamp\www\p2\yii\framework\web\CController.php(779): AdminController->renderPartial()
+#2 D:\wamp\www\p2\www\protected\components\PageController.php(11): AdminController->render()
+#3 D:\wamp\www\p2\www\protected\controllers\AdminController.php(95): AdminController->output()
+#4 D:\wamp\www\p2\yii\framework\web\actions\CInlineAction.php(50): AdminController->actionLinksList()
+#5 D:\wamp\www\p2\yii\framework\web\CController.php(300): CInlineAction->runWithParams()
+#6 D:\wamp\www\p2\yii\framework\web\filters\CFilterChain.php(134): AdminController->runAction()
+#7 D:\wamp\www\p2\www\protected\controllers\AdminController.php(13): CFilterChain->run()
+#8 D:\wamp\www\p2\yii\framework\web\filters\CInlineFilter.php(59): AdminController->filterCheckAdminLogin()
+#9 D:\wamp\www\p2\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#10 D:\wamp\www\p2\yii\framework\web\CController.php(283): CFilterChain->run()
+#11 D:\wamp\www\p2\yii\framework\web\CController.php(257): AdminController->runActionWithFilters()
+#12 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(277): AdminController->run()
+#13 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController()
+#14 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#15 D:\wamp\www\p2\www\index.php(3): CWebApplication->run()
+REQUEST_URI=/p2/www/index.php/Admin/Linkslist
+in D:\wamp\www\p2\www\protected\views\admin\links-list.php (42)
+in D:\wamp\www\p2\www\protected\components\PageController.php (11)
+in D:\wamp\www\p2\www\protected\controllers\AdminController.php (95)
+2013/08/09 10:52:34 [error] [php] Undefined variable: table (D:\wamp\www\p2\www\protected\views\admin\links-list.php:42)
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CController.php(866): AdminController->renderFile()
+#1 D:\wamp\www\p2\yii\framework\web\CController.php(779): AdminController->renderPartial()
+#2 D:\wamp\www\p2\www\protected\components\PageController.php(11): AdminController->render()
+#3 D:\wamp\www\p2\www\protected\controllers\AdminController.php(95): AdminController->output()
+#4 D:\wamp\www\p2\yii\framework\web\actions\CInlineAction.php(50): AdminController->actionLinksList()
+#5 D:\wamp\www\p2\yii\framework\web\CController.php(300): CInlineAction->runWithParams()
+#6 D:\wamp\www\p2\yii\framework\web\filters\CFilterChain.php(134): AdminController->runAction()
+#7 D:\wamp\www\p2\www\protected\controllers\AdminController.php(13): CFilterChain->run()
+#8 D:\wamp\www\p2\yii\framework\web\filters\CInlineFilter.php(59): AdminController->filterCheckAdminLogin()
+#9 D:\wamp\www\p2\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#10 D:\wamp\www\p2\yii\framework\web\CController.php(283): CFilterChain->run()
+#11 D:\wamp\www\p2\yii\framework\web\CController.php(257): AdminController->runActionWithFilters()
+#12 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(277): AdminController->run()
+#13 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController()
+#14 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#15 D:\wamp\www\p2\www\index.php(3): CWebApplication->run()
+REQUEST_URI=/p2/www/index.php/Admin/Linkslist
+in D:\wamp\www\p2\www\protected\views\admin\links-list.php (42)
+in D:\wamp\www\p2\www\protected\components\PageController.php (11)
+in D:\wamp\www\p2\www\protected\controllers\AdminController.php (95)
+2013/08/09 10:52:34 [error] [php] Undefined variable: table (D:\wamp\www\p2\www\protected\views\admin\links-list.php:42)
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CController.php(866): AdminController->renderFile()
+#1 D:\wamp\www\p2\yii\framework\web\CController.php(779): AdminController->renderPartial()
+#2 D:\wamp\www\p2\www\protected\components\PageController.php(11): AdminController->render()
+#3 D:\wamp\www\p2\www\protected\controllers\AdminController.php(95): AdminController->output()
+#4 D:\wamp\www\p2\yii\framework\web\actions\CInlineAction.php(50): AdminController->actionLinksList()
+#5 D:\wamp\www\p2\yii\framework\web\CController.php(300): CInlineAction->runWithParams()
+#6 D:\wamp\www\p2\yii\framework\web\filters\CFilterChain.php(134): AdminController->runAction()
+#7 D:\wamp\www\p2\www\protected\controllers\AdminController.php(13): CFilterChain->run()
+#8 D:\wamp\www\p2\yii\framework\web\filters\CInlineFilter.php(59): AdminController->filterCheckAdminLogin()
+#9 D:\wamp\www\p2\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#10 D:\wamp\www\p2\yii\framework\web\CController.php(283): CFilterChain->run()
+#11 D:\wamp\www\p2\yii\framework\web\CController.php(257): AdminController->runActionWithFilters()
+#12 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(277): AdminController->run()
+#13 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController()
+#14 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#15 D:\wamp\www\p2\www\index.php(3): CWebApplication->run()
+REQUEST_URI=/p2/www/index.php/Admin/Linkslist
+in D:\wamp\www\p2\www\protected\views\admin\links-list.php (42)
+in D:\wamp\www\p2\www\protected\components\PageController.php (11)
+in D:\wamp\www\p2\www\protected\controllers\AdminController.php (95)
+2013/08/09 10:52:46 [error] [php] Undefined variable: table (D:\wamp\www\p2\www\protected\views\admin\links-list.php:42)
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CController.php(866): AdminController->renderFile()
+#1 D:\wamp\www\p2\yii\framework\web\CController.php(779): AdminController->renderPartial()
+#2 D:\wamp\www\p2\www\protected\components\PageController.php(11): AdminController->render()
+#3 D:\wamp\www\p2\www\protected\controllers\AdminController.php(95): AdminController->output()
+#4 D:\wamp\www\p2\yii\framework\web\actions\CInlineAction.php(50): AdminController->actionLinksList()
+#5 D:\wamp\www\p2\yii\framework\web\CController.php(300): CInlineAction->runWithParams()
+#6 D:\wamp\www\p2\yii\framework\web\filters\CFilterChain.php(134): AdminController->runAction()
+#7 D:\wamp\www\p2\www\protected\controllers\AdminController.php(13): CFilterChain->run()
+#8 D:\wamp\www\p2\yii\framework\web\filters\CInlineFilter.php(59): AdminController->filterCheckAdminLogin()
+#9 D:\wamp\www\p2\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#10 D:\wamp\www\p2\yii\framework\web\CController.php(283): CFilterChain->run()
+#11 D:\wamp\www\p2\yii\framework\web\CController.php(257): AdminController->runActionWithFilters()
+#12 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(277): AdminController->run()
+#13 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController()
+#14 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#15 D:\wamp\www\p2\www\index.php(3): CWebApplication->run()
+REQUEST_URI=/p2/www/index.php/Admin/Linkslist
+in D:\wamp\www\p2\www\protected\views\admin\links-list.php (42)
+in D:\wamp\www\p2\www\protected\components\PageController.php (11)
+in D:\wamp\www\p2\www\protected\controllers\AdminController.php (95)
+2013/08/09 10:58:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "LinksList".' in D:\wamp\www\p2\yii\framework\web\CController.php:477
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CController.php(262): CController->missingAction('LinksList')
+#1 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(277): CController->run('LinksList')
+#2 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('AjaxAdmin/Links...')
+#3 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#5 {main} REQUEST_URI=/p2/www/index.php/AjaxAdmin/LinksList
+2013/08/09 10:58:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "LinksList".' in D:\wamp\www\p2\yii\framework\web\CController.php:477
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CController.php(262): CController->missingAction('LinksList')
+#1 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(277): CController->run('LinksList')
+#2 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('AjaxAdmin/Links...')
+#3 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#5 {main} REQUEST_URI=/p2/www/index.php/AjaxAdmin/LinksList
+2013/08/09 10:58:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "LinksList".' in D:\wamp\www\p2\yii\framework\web\CController.php:477
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CController.php(262): CController->missingAction('LinksList')
+#1 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(277): CController->run('LinksList')
+#2 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('AjaxAdmin/Links...')
+#3 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#5 {main} REQUEST_URI=/p2/www/index.php/AjaxAdmin/LinksList
+2013/08/09 11:09:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/bg_repx_hc.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('img/bg_repx_hc....')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/img/bg_repx_hc.gif
+2013/08/09 11:09:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_repno.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('images/bg_repno...')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/images/bg_repno.gif
+2013/08/09 11:39:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/bg_repx_hc.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('img/bg_repx_hc....')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/img/bg_repx_hc.gif
+2013/08/09 11:39:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_repno.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('images/bg_repno...')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/images/bg_repno.gif
+2013/08/09 16:19:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/bg_repx_hc.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('img/bg_repx_hc....')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/img/bg_repx_hc.gif
+2013/08/09 16:19:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_repno.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('images/bg_repno...')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/images/bg_repno.gif
+2013/08/09 17:23:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "Main".' in D:\wamp\www\p2\yii\framework\web\CController.php:477
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CController.php(262): CController->missingAction('Main')
+#1 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(277): CController->run('Main')
+#2 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('Admin/Main')
+#3 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#5 {main} REQUEST_URI=/p2/www/Admin/Main.html
+2013/08/09 17:27:30 [error] [php] Undefined variable: model (D:\wamp\www\p2\www\protected\views\admin\main.php:92)
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CController.php(866): AdminController->renderFile()
+#1 D:\wamp\www\p2\yii\framework\web\CController.php(779): AdminController->renderPartial()
+#2 D:\wamp\www\p2\www\protected\components\PageController.php(11): AdminController->render()
+#3 D:\wamp\www\p2\www\protected\controllers\AdminController.php(18): AdminController->output()
+#4 D:\wamp\www\p2\yii\framework\web\actions\CInlineAction.php(50): AdminController->actionMain()
+#5 D:\wamp\www\p2\yii\framework\web\CController.php(300): CInlineAction->runWithParams()
+#6 D:\wamp\www\p2\yii\framework\web\filters\CFilterChain.php(134): AdminController->runAction()
+#7 D:\wamp\www\p2\www\protected\controllers\AdminController.php(13): CFilterChain->run()
+#8 D:\wamp\www\p2\yii\framework\web\filters\CInlineFilter.php(59): AdminController->filterCheckAdminLogin()
+#9 D:\wamp\www\p2\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#10 D:\wamp\www\p2\yii\framework\web\CController.php(283): CFilterChain->run()
+#11 D:\wamp\www\p2\yii\framework\web\CController.php(257): AdminController->runActionWithFilters()
+#12 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(277): AdminController->run()
+#13 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController()
+#14 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#15 D:\wamp\www\p2\www\index.php(3): CWebApplication->run()
+REQUEST_URI=/p2/www/Admin/Main.html
+in D:\wamp\www\p2\www\protected\views\admin\main.php (92)
+in D:\wamp\www\p2\www\protected\components\PageController.php (11)
+in D:\wamp\www\p2\www\protected\controllers\AdminController.php (18)
+2013/08/09 17:54:02 [error] [php] Undefined variable: model (D:\wamp\www\p2\www\protected\views\admin\main.php:94)
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CController.php(866): AdminController->renderFile()
+#1 D:\wamp\www\p2\yii\framework\web\CController.php(779): AdminController->renderPartial()
+#2 D:\wamp\www\p2\www\protected\components\PageController.php(11): AdminController->render()
+#3 D:\wamp\www\p2\www\protected\controllers\AdminController.php(17): AdminController->output()
+#4 D:\wamp\www\p2\yii\framework\web\actions\CInlineAction.php(50): AdminController->actionMain()
+#5 D:\wamp\www\p2\yii\framework\web\CController.php(300): CInlineAction->runWithParams()
+#6 D:\wamp\www\p2\yii\framework\web\filters\CFilterChain.php(134): AdminController->runAction()
+#7 D:\wamp\www\p2\www\protected\controllers\AdminController.php(13): CFilterChain->run()
+#8 D:\wamp\www\p2\yii\framework\web\filters\CInlineFilter.php(59): AdminController->filterCheckAdminLogin()
+#9 D:\wamp\www\p2\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#10 D:\wamp\www\p2\yii\framework\web\CController.php(283): CFilterChain->run()
+#11 D:\wamp\www\p2\yii\framework\web\CController.php(257): AdminController->runActionWithFilters()
+#12 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(277): AdminController->run()
+#13 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController()
+#14 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#15 D:\wamp\www\p2\www\index.php(3): CWebApplication->run()
+REQUEST_URI=/p2/www/Admin/Main.html
+in D:\wamp\www\p2\www\protected\views\admin\main.php (94)
+in D:\wamp\www\p2\www\protected\components\PageController.php (11)
+in D:\wamp\www\p2\www\protected\controllers\AdminController.php (17)

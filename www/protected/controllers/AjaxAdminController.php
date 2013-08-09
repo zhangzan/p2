@@ -152,13 +152,16 @@ class AjaxAdminController extends AjaxController {
 		$this->output($bind);
 	}
 
-	public function actionAddLinks() {
+	public function actionLinksList() {
 		$name = $this->qp('name', 'str');
 		$href = $this->qp('href', 'str');
 
 		MLinks::addLinks($name, $href);
+
+		$links_list = MLinks::getLinksList();
 		$bind=array();
 		$bind['code']=1;
+		$bind['links_list']=$links_list;
 		$this->output($bind);
 	}
 

@@ -13,8 +13,10 @@ class AdminController extends PageController {
 			$filterChain->run ();
 		}
 	}
+	public function actionMain() {
+		$this-> output ( 'main');
+	}
 	public function actionLogin() {
-		$layout = 'admin_login';
 		$model = new AdminLoginForm ();
 		if (! Yii::app ()-> user-> isGuest) {
 			Yii::app ()-> user-> logout ();
@@ -87,7 +89,6 @@ class AdminController extends PageController {
 				), 2 );
 			}
 		}
-
 		$links_list = MLinks::getLinksList();
 		$this->output ( 'links-list', array (
 				'url' => 'LinksList',
