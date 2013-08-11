@@ -2822,3 +2822,15 @@ Stack trace:
 #3 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
 #4 D:\wamp\www\p2\www\index.php(3): CApplication->run()
 #5 {main} REQUEST_URI=/p2/www/admin/font/fontawesome-webfont.svg
+2013/08/10 08:57:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/bg_repx_hc.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('img/bg_repx_hc....')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/img/bg_repx_hc.gif
+2013/08/10 08:57:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg_repno.gif".' in D:\wamp\www\p2\yii\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\wamp\www\p2\yii\framework\web\CWebApplication.php(136): CWebApplication->runController('images/bg_repno...')
+#1 D:\wamp\www\p2\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\wamp\www\p2\www\index.php(3): CApplication->run()
+#3 {main} REQUEST_URI=/p2/www/images/bg_repno.gif

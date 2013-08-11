@@ -1,5 +1,4 @@
 <script type="text/javascript">
-
 	function print_page(){
 		var html='<h3>友情链接列表</h3>';
 		html+='<table style="margin-bottom:5px;">';
@@ -25,7 +24,7 @@
 		$.each(links_list	, function(k,v){
 			html+='<tr>';
 			html+=	'<td>'+v.id+'</td>';
-			html+=	'<td><span onclick="javascript:listTable.edit(this, \'edit_name\','+v.id+')" title="点击我编辑">'+v.name+'</span></td>';
+			html+=	'<td onclick="javascript:listTable.edit(this, \'edit_name\','+v.id+')" title="点击我编辑">'+v.name+'</td>';
 			html+=	'<td><span onclick="javascript:listTable.edit(this, \'edit_href\','+v.id+')" title="点击我编辑">'+v.href+'</span></td>';
 			html+=	'<td><input type="button" value="删除" class="btn_red" onclick="del('+v.id+')"></td>';
 			html+='</tr>';
@@ -33,7 +32,6 @@
 		$("#table").html(html);
 	}
 </script>
-
 <script type="text/javascript" language="javascript">
 	var links_list=<?php echo json_encode($links_list);?>;
 	print_page();
@@ -52,5 +50,4 @@
 		y=confirm("确认删除该链接?");
 		if(y==true){window.location="LinksList?act=del&id="+id;}
 	}
-	
 </script>
