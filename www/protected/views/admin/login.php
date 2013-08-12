@@ -17,20 +17,14 @@ $form=$this->beginWidget('CActiveForm', array(
 	.login li:last-child:after{bottom:15px;}
 	.login label{width: 70px;display: inline-block;text-align: right;}
 	.login span{display: block;color: #6296b4;padding-left: 75px;}
-	input[type="submit"]{position: absolute;top: 24px;right: -30px;width: 44px;height: 44px;border-radius: 22px;border:1px solid #00a1d2;background: -webkit-linear-gradient(top,#029ecd,#0d7796);color: #fff;text-shadow:1px 1px 0 #666;box-shadow:0 0 0 5px #2c2c2c;z-index: 3;text-align: center;line-height: 46px;-webkit-transition: all 0.28s ease-in;}
-input[type="submit"]:hover{-webkit-transform:rotate(360deg);}
+	input[type="submit"]{position: absolute;top: 24px;outline: none; right: -30px;width: 44px;height: 44px;border-radius: 22px;border:1px solid #00a1d2;background: -webkit-linear-gradient(top,#029ecd,#0d7796);color: #fff;text-shadow:1px 1px 0 #666;box-shadow:0 0 0 5px #2c2c2c;z-index: 3;text-align: center;line-height: 46px;-webkit-transition: all 0.28s ease-in;}
+	input[type="submit"]:hover{-webkit-transform:rotate(360deg);}
 </style>
 <div class="login">
-	 <form action="#" method="get">
-	 	<ul>
-			 <li>	
-			 	<label for="username">账 号:</label> <?php echo $form->textField($model,'username'); ?>
-			 </li>
-			 <li>
-			 	<label for="password">密 码:</label> <?php echo $form->passwordField($model,'password'); ?>
-			 </li>
-		</ul>
-			<a href="javascript:;" class="button"/>登录</a><?php echo CHtml::submitButton('登陆'); ?>
-	 </form>
+ 	<ul>
+		 <li><label for="username">账 号:</label> <?php echo $form->textField($model,'username'); ?></li>
+		 <li><label for="password">密 码:</label> <?php echo $form->passwordField($model,'password'); ?></li>
+	</ul>
+	<?php echo CHtml::submitButton('登陆'); ?>
 </div>
 <?php $this->endWidget();?>

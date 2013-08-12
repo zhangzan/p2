@@ -1,19 +1,18 @@
 body{ margin:0 auto; padding:0; font:12px/1.7 Microsoft Yahei;color:#333;background: #EFEFEF;}
 form,ul,li,p,h1,h2,h3,h4,h5,h6,p,dl,dt,dd,a,input,select{ margin:0; padding:0; }
-input[type="text"],input[type="password"] {color: #fff; display: inline-block; box-sizing:border-box;border-radius: 5px;line-height: 15px;background-color:rgb(118, 209, 205); outline: none; border: none; text-indent: 10px; }
-ul{list-style: none;}
+input[type="text"],input[type="password"] {color: #fff; display: inline-block; box-sizing:border-box;border-radius: 5px;line-height: 20px;background-color:rgb(118, 209, 205); outline: none; border: none; text-indent: 10px; }
+iframe{width: 100%;} ul{list-style: none;}
 table{border-spacing: 0; width: 100%;border: solid #ccc 1px; border-radius: 6px; box-shadow: 0 1px 1px #ccc;}
 tr{transition:0.1s ease-in-out;}
 tr:hover {background: #fbf8e9}
 td,th {border-left: 1px solid #ccc; border-top: 1px solid #ccc; padding: 10px; text-align: left;}
 th {text-align: center;background-color: #dce9f9; background-image: -webkit-linear-gradient(top, #ebf3fc, #dce9f9); box-shadow: 0 1px 0 rgba(255,255,255,.8) inset; border-top: none; text-shadow: 0 1px 0 rgba(255,255,255,.5); }
 td:first-child,th:first-child {border-left: none;}
-td span{display: block;width: 80%;padding: 0;overflow: hidden;}
-td span input{display: block;border: none;outline: none;}
 th:first-child {border-radius: 6px 0 0 0;}
 th:last-child {border-radius: 0 6px 0 0;}
 tr:last-child td:first-child {border-radius: 0 0 0 6px;}
 tr:last-child td:last-child {border-radius: 0 0 6px 0;}
+.td_input input{display: block;border: none;outline: none;width: 100%;}
 .ac{text-align: center;}
 aside{width: 200px;height: 100%;position: fixed;background: #303030;top: 0;box-shadow:inset -2px 0 20px #000;color: #ccc;-webkit-user-select: none;}
 aside.r{right: 0;box-shadow:inset 2px 0 20px #000;}
@@ -40,4 +39,3 @@ h3{border-bottom: 1px solid #ccc;padding-bottom: 10px;margin-bottom: 20px;font-s
 .btn_green:hover{background: -webkit-linear-gradient(top,rgb(47, 182, 166),rgb(60, 195, 201));}
 .btn_red{border: 1px solid rgb(238,85,64); color: #fff;background: -webkit-linear-gradient(top,rgb(245,101,82),rgb(234,83,63));}
 .btn_red:hover{background: -webkit-linear-gradient(top,rgb(220,85,70),rgb(210,65,53));}
-iframe{width: 100%;}

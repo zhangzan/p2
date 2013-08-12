@@ -79,20 +79,68 @@ class AdminController extends PageController {
 		/* 删除友情链接信息 */
 		if (@$_REQUEST ['act'] == 'del') {
 			$id = $_REQUEST ['id'];
-			if (MLinks::deleteLinksById ( $id )) {
-				$this->showMsg ( "提示", "友情链接删除成功", array (
-						'友情链接列表' => 'LinksList'
-				), 2 );
-			} else {
-				$this->showMsg ( "提示", "友情链接删除失败", array (
-						'友情链接列表' => 'LinksList'
-				), 2 );
-			}
+			MLinks::deleteLinksById ( $id );
+			// if (MLinks::deleteLinksById ( $id )) {
+			// 	$this->showMsg ( "提示", "友情链接删除成功", array (
+			// 			'友情链接列表' => 'LinksList'
+			// 	), 2 );
+			// } else {
+			// 	$this->showMsg ( "提示", "友情链接删除失败", array (
+			// 			'友情链接列表' => 'LinksList'
+			// 	), 2 );
+			// }
 		}
 		$links_list = MLinks::getLinksList();
 		$this->output ( 'links-list', array (
 				'url' => 'LinksList',
 				'links_list' => $links_list
+		));
+	}
+	/* 用户信息 */
+	public function actionUser() {
+		/* ajax更改友情链接标题 */
+		// if (@$_REQUEST ['act'] == "edit_name") {
+		// 	$id = intval ( $_POST ['id'] );
+		// 	$name = $_REQUEST ['val'];
+		// 	if (MLinks::updateLinksNameById ( $id, $name )) {
+		// 		exit ( "更新成功!" );
+		// 	} else {
+		// 		exit ( "更新失败!" );
+		// 	}
+		// }
+		// /* ajax更改友情链接链接 */
+		// if (@$_REQUEST ['act'] == "edit_href") {
+		// 	$id = intval ( $_POST ['id'] );
+		// 	$href = $_REQUEST ['val'];
+		// 	$exist = MLinks::linksExist ( $href ); // 判断友情链接标题是否重复
+		// 	if ($exist) {
+		// 		exit ( "链接：" . $href . ' 已经存在!' );
+		// 	}
+
+		// 	if (MLinks::updateLinksHrefById ( $id, $href )) {
+		// 		exit ( "更新成功!" );
+		// 	} else {
+		// 		exit ( "更新失败!" );
+		// 	}
+		// }
+		// /* 增加友情链接信息 */
+		// if (@$_REQUEST ['act'] == 'add') {
+		// 	$name = $this->qp ( "name", 'str' );
+		// 	$href = $this->qp ( "href", 'str' );
+		// 	$model = "links";
+		// 	$res = MLinks::addLinks ( $name, $href );
+		// 	$this->redirect($this->url('Admin', 'LinksList'));
+		// 	exit;
+		// }
+		// /* 删除友情链接信息 */
+		// if (@$_REQUEST ['act'] == 'del') {
+		// 	$id = $_REQUEST ['id'];
+		// 	MLinks::deleteLinksById ( $id );
+		// }
+		$user_list = MUser::getUserList();
+		$this->output ( 'user', array (
+				// 'url' => 'User',
+				'user_list' => $user_list
 		));
 	}
 	
@@ -137,13 +185,6 @@ class AdminController extends PageController {
 				), 2 );
 			}
 		}
-
-		/* 查询新闻的类别 */
-		$classArr = MNews::getNewsClassList ();
-		$this->output ( 'news-class-list', array (
-				'classArr' => $classArr
-		) );
-
 	}
 
 	/* 新增新闻类别 */

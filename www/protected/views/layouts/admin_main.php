@@ -25,6 +25,5 @@ var TEST_SERVER_FLAG = <?php echo TEST_SERVER_FLAG;?>;
 </head>
 <body>
 <?php echo $content; ?>
-
 </body>
 </html>

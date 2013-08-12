@@ -93,10 +93,17 @@ $model = select_dba ()->select_row ( "select name from admin where id = :id", ar
 					<li><a onclick="go(this,'<?=$this->url('Admin','PartList')?>')">部件管理</a></li>
 				</ul>
 		</div>
+		<div>
+			<h2><a onclick="go(this,'<?=$this->url('Admin','User')?>')">登录信息</a></h2>
+			<ul>
+				<li><a onclick="go(this,'<?=$this->url('Admin','User')?>')">登录信息</a></li>
+			</ul>
+		</div>
 	</nav>
 </aside>
 <aside class="r">
 	<a class="logo" title="退出登录" href="<?=$this->url('Admin','Logout')?>"><?=$model['name']?></a>
+	<a>修改密码</a>
 	<footer>后台管理工具 by 47</footer>
 </aside>
 <script type="text/javascript">
@@ -114,12 +121,14 @@ $model = select_dba ()->select_row ( "select name from admin where id = :id", ar
 	$('nav li a').click(function(){
 		$('nav li a').removeClass('on');
 		$(this).addClass('on');
+		iframe_auto_height();
 	});
 	function go(dom,href){
 		$('iframe').attr('src',href)
 	}
-
-	$("#m").load(function() { 
-		$(this).height($(this).contents().height()); 
-		}) 
+	function iframe_auto_height(){
+		$("#m").height(0);
+		$("#m").height($("#m").contents().height());
+	}
+	$("#m").load(function(){iframe_auto_height();})
 </script>
